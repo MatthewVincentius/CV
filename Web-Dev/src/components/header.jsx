@@ -4,7 +4,6 @@ export default function Header() {
       <div className="profile">
         <img 
           src="/profile.jpg" 
-          alt="Matthew Vincentius"
           className="profile-img"
         />
         <div>
