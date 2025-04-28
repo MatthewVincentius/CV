@@ -1,41 +1,42 @@
-body {
-  font-family: Arial, sans-serif;
-  line-height: 1.6;
-  max-width: 800px;
-  margin: 0 auto;
+:root {
+  --primary: #4361ee;
+  --secondary: #3a0ca3;
+  --glass: rgba(255, 255, 255, 0.1);
 }
 
-.dark-mode {
-  background-color: #121212;
-  color: #ffffff;
+.app {
+  min-height: 100vh;
+  font-family: 'Segoe UI', sans-serif;
 }
 
-.light-mode {
-  background-color: #ffffff;
-  color: #121212;
+.light {
+  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  color: #333;
 }
 
-.toggle-btn {
-  position: fixed;
-  top: 10px;
-  right: 10px;
-  padding: 5px 10px;
-  cursor: pointer;
+.dark {
+  background: linear-gradient(135deg, #0f2027 0%, #203a43 50%, #2c5364 100%);
+  color: #fff;
+}
+
+/* Glassmorphism Card */
+.card {
+  background: var(--glass);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 2rem;
+  margin: 1rem 0;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+}
+
+/* Animasi */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
 .section {
-  margin-bottom: 30px;
-}
-
-.skills-list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px;
-}
-
-.skills-list li {
-  background: #007bff;
-  color: white;
-  padding: 5px 10px;
-  border-radius: 5px;
+  animation: fadeIn 0.6s ease-out forwards;
 }
