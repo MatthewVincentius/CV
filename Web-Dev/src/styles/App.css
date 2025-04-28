@@ -1,18 +1,16 @@
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
-  height: 100%;
-  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .dark-mode {
-  min-height: 100vh;
   background-color: #121212;
   color: #ffffff;
 }
 
 .light-mode {
-  min-height: 100vh;
   background-color: #ffffff;
   color: #121212;
 }

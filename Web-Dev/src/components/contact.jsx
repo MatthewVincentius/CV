@@ -3,7 +3,7 @@ export default function About() {
       <section className="section">
         <h2>Contact</h2>
         <p>
-        <img src = "/assets/WA icon.png"/> Whatsapp : 089685656250
+        <img src = "/assets/WA_icon.png"/> Whatsapp : 089685656250
         </p>
         <p>
         Instagram : matthewvt_01

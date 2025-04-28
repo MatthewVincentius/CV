@@ -4,6 +4,7 @@ import About from "./components/about";
 import Education from "./components/education";
 import Skills from "./components/skills";
 import Contact from "./components/contact";
+import "./index.css";
 import "./styles/App.css";
 
 function App() {
