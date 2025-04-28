@@ -24,7 +24,7 @@ function App() {
       <Skills />
       <Contact />
       
-      <footer className="footer">
+      <footer className="fixed bottom-4 right-4">
         © {new Date().getFullYear()} Matthew Vincentius
       </footer>
     </div>

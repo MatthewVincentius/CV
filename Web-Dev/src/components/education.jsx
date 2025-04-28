@@ -1,6 +1,6 @@
 export default function About() {
     return (
-      <section className="mb-9 section">
+      <section className="mb-9 ml-8 section">
         <h2 class="text-2xl">Education</h2>
         
         <p>• Playgroup (St. Maria Surabaya)</p>

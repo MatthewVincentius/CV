@@ -1,6 +1,6 @@
 export default function About() {
     return (
-      <section className="mb-9 section">
+      <section className="mb-9 ml-8 section">
         <h2 class="text-2xl">About Me</h2>
         <p>
           Passionate frontend developer with 2 years of experience in Laravel.
